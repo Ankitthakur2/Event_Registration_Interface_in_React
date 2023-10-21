@@ -1,0 +1,53 @@
+.registered-users-list-container {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px red;
+  margin-bottom: 2rem;
+}
+
+.registered-users-list-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.registered-user {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.registered-user-name {
+  font-weight: bold;
+}
+
+.registered-user-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.registered-user-button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 780px) {
+  .registered-users-list-container {
+    width: 300px;
+  }
+
+  .registered-users-list-heading {
+    font-size: 18px;
+  }
+}

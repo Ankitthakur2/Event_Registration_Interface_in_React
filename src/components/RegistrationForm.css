@@ -1,0 +1,84 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+input,
+textarea {
+  transition: border 0.3s, color 0.3s;
+}
+
+input,
+textarea {
+  margin: 0.4rem;
+  height: 30px;
+  padding: 0.4rem;
+}
+textarea {
+  height: 100px;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #007bff;
+  color: #007bff;
+  box-shadow: 0 0 10px fuchsia;
+  padding: 0.4rem;
+}
+
+::placeholder {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 20px;
+  margin-top: 5px;
+  background-color: #ffa500;
+  padding: 1rem;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 400px;
+  background-color: rgb(125, 153, 205);
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px red;
+  margin-top: 3rem;
+}
+
+h1 {
+  color: white;
+}
+
+.Submit {
+  width: 80px;
+  height: 30px;
+  flex: flex;
+  margin-left: 9rem;
+  box-shadow: 0 0 10px fuchsia;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 780px) {
+  form {
+    width: 300px;
+  }
+
+  .Submit {
+    margin-left: 7rem;
+  }
+}
